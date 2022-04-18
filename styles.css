@@ -1,0 +1,116 @@
+/* importing the font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* some general styles: body styles, background colors, etc. */
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.section-1,
+.footer {
+    background-color: #1f2937;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+}
+
+/* HEADER STYLES */
+.header .lhs {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* combining common styles from other elements here */
+.header a,
+.section-1 .content,
+.footer {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+/* HEADER END */
+
+/* SECTION-1 STYLES */
+.section-1 .heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 150px;
+    gap: 50px;
+}
+
+.section-1 .text {
+    flex: 1;
+}
+
+.section-1 .image {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* will work for button in section-4 too */
+button {
+    background-color: #3882f6;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+/* creating gaps between elements in content area */
+.section-1 .text div {
+    margin-bottom: 10px;
+} 
+/* SECTION-1 END */
+
+/* SECTION-2 STYLES */
+/* SECTION-2 END */
+
+/* SECTION-3 STYLES */
+/* SECTION-3 END */
+
+/* SECTION-4 STYLES */
+/* SECTION-4 END */
+
+/* FOOTER STYLES */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+/* FOOTER END */
