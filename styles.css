@@ -24,7 +24,7 @@ body {
 .header .lhs {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 /* combining common styles from other elements here */
@@ -38,6 +38,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 150px;
 }
 
@@ -57,7 +58,7 @@ a {
 /* SECTION-1 STYLES */
 .section-1 .heading {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -65,6 +66,7 @@ a {
 .section-1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 50px 150px;
     gap: 50px;
 }
@@ -77,6 +79,7 @@ a {
     flex: 1;
 }
 
+/* will work for images in section-2 too */
 img {
     max-width: 100%;
     height: auto;
@@ -89,6 +92,7 @@ button {
     padding: 5px 25px;
     border-radius: 5px;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 /* creating gaps between elements in content area */
@@ -98,12 +102,96 @@ button {
 /* SECTION-1 END */
 
 /* SECTION-2 STYLES */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.section-2 .heading {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.section-2 .image-reel {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.section-2 .image {
+    margin: 0 25px;
+}
+
+.section-2 img {
+    border-radius: 5px;
+}
+
+.section-2 .image-desc {
+    text-align: center;
+    color: #1f2937;
+    font-size: 18px;
+
+}
 /* SECTION-2 END */
 
 /* SECTION-3 STYLES */
+.section-3 {
+    padding: 50px 150px;
+
+}
+
+.section-3 .quote-wrapper {
+    margin: 50px 20px;
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.section-3 .credit {
+    font-size: 24px;
+    text-align: right;
+    font-weight: 600;
+}
 /* SECTION-3 END */
 
 /* SECTION-4 STYLES */
+.section-4 {
+    padding: 50px 150px;
+}
+
+.section-4 .sign-up-call {
+    background-color: #3882f6;
+    display: flex;
+    padding: 30px 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px
+}
+
+.section-4 .call-to-action {
+    color: #f9faf8;
+
+}
+
+.section-4 .heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section-4 .text {
+    font-size: 18px;
+}
+
+.section-4 button {
+    border: 2px solid #f9faf8;
+}
 /* SECTION-4 END */
 
 /* FOOTER STYLES */
